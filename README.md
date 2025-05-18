@@ -37,6 +37,7 @@ Visualize and compare original, noisy, and denoised images.
 ## PROGRAM
 ### Name: Pranavesh Saikumar
 ### Register Number: 212223040149
+```
 class DenoisingAutoencoder(nn.Module):
     def _init_(self):
         super(DenoisingAutoencoder, self)._init_()
@@ -122,7 +123,7 @@ def visualize_denoising(model, loader, num_images=10):
 
     plt.tight_layout()
     plt.show()
-
+```
 
 
 ## OUTPUT
